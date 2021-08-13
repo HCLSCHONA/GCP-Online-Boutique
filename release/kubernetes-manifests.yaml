@@ -220,6 +220,7 @@ spec:
       containers:
         - name: server
           image: cnlabscmpacr.azurecr.io/online-boutique/frontend:v17
+          imagePullPolicy: Always
           ports:
           - containerPort: 8080
           readinessProbe:
