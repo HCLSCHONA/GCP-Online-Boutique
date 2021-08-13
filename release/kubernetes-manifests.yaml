@@ -219,7 +219,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: cnlabscmpacr.azurecr.io/online-boutique/frontend:v16
+          image: cnlabscmpacr.azurecr.io/online-boutique/frontend:v17
           ports:
           - containerPort: 8080
           readinessProbe:
