@@ -219,7 +219,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: docker.io/hclschona/online-boutique:v18
+          image: gcr.io/google-samples/microservices-demo/frontend:v0.2.4
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
