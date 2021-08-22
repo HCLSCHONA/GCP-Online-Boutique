@@ -219,7 +219,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: cnlabscmpacr.azurecr.io/online-boutique/frontend:v19
+          image: cnlabscmpacr.azurecr.io/online-boutique/frontend:v20
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
